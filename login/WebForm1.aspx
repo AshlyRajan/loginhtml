@@ -5,17 +5,28 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
     <title></title>
+    
+    <style type="text/css">
+        body{
+            text-align:center;
+            border:15px;
+            margin:500px;
+            padding:50px;
+            border-style:inset;
+            
+        }
+    </style>
 </head>
 <body>
     <form id="form1" runat="server">
         <div>
-            <center><b><h1>Login Form</h1></b></center>
-            <br>
-               <label>Email Adress</label><input type="text"placeholder="Email Adress" required /> <br/>
-                 <br><label>Password</label><input type="password"placeholder="Password" required /></br>
-                <br /><input type="checkbox" name="cb1" value="Remeber me"/>Remember Me<a href="WebForm2.aspx">Forgot password?</a>
-                <br /><input type="submit" value="Login" />
-                <br /><label>Not a member?</label><a href="WebForm2.aspx">Signup now</a>
+            <h1 style="background-color:blueviolet ; border:hidden; padding:50px"><b>Login Form</b></h1>
+            
+               <div><label>Email Adress</label><input type="text"placeholder="Email Adress" required /> </div>
+                 <div><label>Password</label><input type="password"placeholder="Password" required /></div>
+                <div ><input type="checkbox" name="cb1" value="Remeber me"/>Remember Me<a href="WebForm2.aspx">Forgot password?</a></div>
+                <div  ><input type="submit" value="Login"style="background-color:blueviolet" /></div>
+                <div><label>Not a member?</label><a href="WebForm2.aspx">Signup now</a></div>
             
         </div>
     </form>
